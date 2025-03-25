@@ -1,0 +1,79 @@
+/* Общие стили */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+.Login-window h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.Login-window label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.Login-window input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.Login-window input[type="email"],
+.Login-window input[type="password"] {
+  width: 100%;
+  max-width: 400px;
+  margin: 10px auto;
+}
+
+button {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  margin: 10px auto;
+  background-color: #007BFF;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.Login-window p {
+  text-align: center;
+  font-size: 14px;
+  color: #007BFF;
+  cursor: pointer;
+}
+
+p:hover {
+  text-decoration: underline;
+}
+
+/* Стиль для формы */
+div .Login-window  {
+  background-color: white;
+  max-width: 450px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+div .Login-window  h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}

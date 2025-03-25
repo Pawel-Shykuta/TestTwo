@@ -1,0 +1,97 @@
+
+.lists-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 900px;
+    margin: 20px auto;
+  }
+  
+
+  .lists-container h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+  
+
+  .list-item {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    transition: transform 0.3s ease;
+  }
+  
+  .list-item:hover {
+    transform: translateY(-5px); 
+  }
+  
+
+  .item-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+
+  .item-importance {
+    font-size: 1rem;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  .item-importance span {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+
+  .item-data {
+    font-size: 1rem;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  .item-data span {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+
+  .item-description {
+    font-size: 1rem;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  .item-description span {
+    font-style: italic;
+    color: #888;
+  }
+  
+
+  .load-button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .load-button:hover {
+    background-color: #0056b3;
+  }
+  
